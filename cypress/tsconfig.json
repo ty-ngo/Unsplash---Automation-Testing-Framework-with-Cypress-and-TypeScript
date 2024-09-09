@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "baseUrl": "../node_modules",
+        "types": [
+            "cypress",
+            "node",
+            "mocha",
+            "cypress-real-events",
+        ]
+    },
+    "include": [
+        "**/*.*",
+        // "e2e/ui/follow-photographer.cy.ts",
+        // "e2e/ui/like-random-photos.cy.ts",
+        // "e2e/ui/update-username.cy.ts"
+    ]
+}

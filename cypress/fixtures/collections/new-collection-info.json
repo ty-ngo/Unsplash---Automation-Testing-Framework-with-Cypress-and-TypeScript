@@ -1,0 +1,12 @@
+{
+    "collection_01": {
+        "title": "collection 01",
+        "description": "this is a new collection for API testing",
+        "private": false
+    },
+    "collection_02": {
+        "title": "collection 02",
+        "description": "this is a new collection for UI testing",
+        "private": true
+    }
+}

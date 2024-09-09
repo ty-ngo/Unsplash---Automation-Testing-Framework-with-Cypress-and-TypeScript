@@ -1,0 +1,226 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Generated schema for Root",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "published_at": {
+            "type": "string"
+        },
+        "last_collected_at": {},
+        "updated_at": {
+            "type": "string"
+        },
+        "featured": {
+            "type": "boolean"
+        },
+        "total_photos": {
+            "type": "number"
+        },
+        "private": {
+            "type": "boolean"
+        },
+        "share_key": {
+            "type": "string"
+        },
+        "tags": {
+            "type": "array",
+            "items": {}
+        },
+        "links": {
+            "type": "object",
+            "properties": {
+                "self": {
+                    "type": "string"
+                },
+                "html": {
+                    "type": "string"
+                },
+                "photos": {
+                    "type": "string"
+                },
+                "related": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "self",
+                "html",
+                "photos",
+                "related"
+            ]
+        },
+        "user": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string"
+                },
+                "updated_at": {
+                    "type": "string"
+                },
+                "username": {
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "first_name": {
+                    "type": "string"
+                },
+                "last_name": {
+                    "type": "string"
+                },
+                "twitter_username": {},
+                "portfolio_url": {},
+                "bio": {},
+                "location": {},
+                "links": {
+                    "type": "object",
+                    "properties": {
+                        "self": {
+                            "type": "string"
+                        },
+                        "html": {
+                            "type": "string"
+                        },
+                        "photos": {
+                            "type": "string"
+                        },
+                        "likes": {
+                            "type": "string"
+                        },
+                        "portfolio": {
+                            "type": "string"
+                        },
+                        "following": {
+                            "type": "string"
+                        },
+                        "followers": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "self",
+                        "html",
+                        "photos",
+                        "likes",
+                        "portfolio",
+                        "following",
+                        "followers"
+                    ]
+                },
+                "profile_image": {
+                    "type": "object",
+                    "properties": {
+                        "small": {
+                            "type": "string"
+                        },
+                        "medium": {
+                            "type": "string"
+                        },
+                        "large": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "small",
+                        "medium",
+                        "large"
+                    ]
+                },
+                "instagram_username": {},
+                "total_collections": {
+                    "type": "number"
+                },
+                "total_likes": {
+                    "type": "number"
+                },
+                "total_photos": {
+                    "type": "number"
+                },
+                "total_promoted_photos": {
+                    "type": "number"
+                },
+                "total_illustrations": {
+                    "type": "number"
+                },
+                "total_promoted_illustrations": {
+                    "type": "number"
+                },
+                "accepted_tos": {
+                    "type": "boolean"
+                },
+                "for_hire": {
+                    "type": "boolean"
+                },
+                "social": {
+                    "type": "object",
+                    "properties": {
+                        "instagram_username": {},
+                        "portfolio_url": {},
+                        "twitter_username": {},
+                        "paypal_email": {}
+                    },
+                    "required": [
+                        "instagram_username",
+                        "portfolio_url",
+                        "twitter_username",
+                        "paypal_email"
+                    ]
+                }
+            },
+            "required": [
+                "id",
+                "updated_at",
+                "username",
+                "name",
+                "first_name",
+                "last_name",
+                "twitter_username",
+                "portfolio_url",
+                "bio",
+                "location",
+                "links",
+                "profile_image",
+                "instagram_username",
+                "total_collections",
+                "total_likes",
+                "total_photos",
+                "total_promoted_photos",
+                "total_illustrations",
+                "total_promoted_illustrations",
+                "accepted_tos",
+                "for_hire",
+                "social"
+            ]
+        },
+        "cover_photo": {},
+        "preview_photos": {}
+    },
+    "required": [
+        "id",
+        "title",
+        "description",
+        "published_at",
+        "last_collected_at",
+        "updated_at",
+        "featured",
+        "total_photos",
+        "private",
+        "share_key",
+        "tags",
+        "links",
+        "user",
+        "cover_photo",
+        "preview_photos"
+    ]
+}
