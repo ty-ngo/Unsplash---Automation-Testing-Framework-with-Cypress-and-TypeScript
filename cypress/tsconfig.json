@@ -11,8 +11,5 @@
     },
     "include": [
         "**/*.*",
-        // "e2e/ui/follow-photographer.cy.ts",
-        // "e2e/ui/like-random-photos.cy.ts",
-        // "e2e/ui/update-username.cy.ts"
     ]
 }
