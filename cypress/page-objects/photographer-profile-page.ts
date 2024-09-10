@@ -11,21 +11,11 @@ export class PhotographerProfilePage extends BasePage {
         this._imgPhotographerAvatar.isVisible();
     }
 
-    // public openMoreActions(): void {
-    //     this.waitForLoad();
-    //     this._btnMoreActions.getAttribute('aria-expanded').then((expanded: string) => {
-    //         if (expanded === 'false') {
-    //             this._btnMoreActions.click();
-    //         }
-    //     });
-    // }
-
     public openMoreActions(): void {
         this.waitForLoad();
         this._btnMoreActions.getAttribute('aria-expanded').then((expanded: string) => {
             if (expanded === 'false') {
                 this._btnMoreActions.click();
-                //this.openMoreActions();
             }
         });
     }

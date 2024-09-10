@@ -18,14 +18,6 @@ export class HomePage extends BasePage {
         });
     }
 
-    // public openRandomFreePhoto(): void {
-    //     this._imgFreePhotos.getAllElements().then(($elements) => {
-    //         const count = $elements.length;
-    //         const randomIndex = Utilities.getRandomNumber(0, count - 1);
-    //         cy.wrap($elements[randomIndex]).invoke('click');
-    //     });
-    // }
-
     public likeNthPhoto(n: number): Cypress.Chainable<string> {
         this._imgNthPhoto(n).hover();
         this._btnLikeNthPhoto(n).click();
